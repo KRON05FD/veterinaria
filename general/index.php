@@ -27,7 +27,7 @@
     />
 
     <!-- Link hacia el archivo de estilos css -->
-    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="../css/index.css" />
 
     <style type="text/css"></style>
 
@@ -40,25 +40,28 @@
         <div id="login">
           <div class="titulo">Bienvenidos</div>
           <img
-            src="/images/logoveterinaria.jpeg"
+            src="../images/logoveterinaria.jpeg"
             alt="logoveterinaria"
             width="260"
             height="210"
           />
           <br />
           <br />
-          <form id="loginform">
-            <input type="text" name="usuario" placeholder="Usuario" required />
-
+          <form id="loginform"  method="post" autocomplete="off">
+            <input
+              type="text"
+              placeholder="Usuario"
+              name="login"
+              required
+            />
             <input
               type="password"
               placeholder="Contraseña"
-              name="password"
+              name="clave"
               required
             />
-
-            <button type="submit" title="Ingresar" name="Ingresar">
-              Login
+            <button name="iniciarsesion" type="submit" title="Ingresar" >
+              Ingresar
             </button>
           </form>
           <div class="pie-form">
@@ -71,5 +74,8 @@
         </div>
       </div>
     </div>
+    <?php
+        include ("login.php")
+    ?>
   </body>
 </html>

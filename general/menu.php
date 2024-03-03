@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Menu principal</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
                     <li><a href="">Historia clinica</a></li>
                     <li><a href="">Administracion</a>
                         <ul>
-                            <li><a href="">Usuarios</a></li>
+                            <li><a href="usuarios.php">Usuarios</a></li>
                             <li><a href="">Permisos</a></li>
                         </ul>
                     </li>
@@ -35,3 +35,6 @@
     
 </body>
 </html>
+<?php
+echo '<p>Hola mundo </p>';
+?>
