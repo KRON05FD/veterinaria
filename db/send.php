@@ -20,7 +20,7 @@
             $email = trim($_POST['email']);
             $login = trim($_POST['login']);
             $estado = trim($_POST['estado']);
-            $query = "INSERT INTO usuarios(fecha_creacion, identificacion, nombres, apellidos, email, login, clave, estado)
+            $query = "INSERT INTO usuarios2 (fecha_creacion, identificacion, nombres, apellidos, email, login, clave, estado)
                          VALUES ('$fecha_creacion', '$identificacion', '$nombres', '$apellidos', '$email', '$login', '$login', '$estado')";
 
             $response = mysqli_query($conex, $query);

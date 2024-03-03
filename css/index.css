@@ -1,9 +1,8 @@
 body {
-    font-family: 'Overpass', sans-serif;
+    font-family: sans-serif;
     font-weight: normal;
     font-size: 100%;
-    color: #1b262c;
-    
+    color: red;
     margin: 0;
     background-color: #0f4c75;
 }
@@ -52,7 +51,7 @@ body {
 #login input {
     font-family: 'Overpass', sans-serif;
     font-size: 110%;
-    color: #1b262c;
+    color: #1b261c;
     
     display: block;
     width: 100%;
@@ -118,14 +117,12 @@ body {
     font-size: 90%;
     text-align: center;
 }
-
 .inferior a {
     display: block;
     text-decoration: none;
     color: #bbe1fa;
     margin-bottom: 3px;
 }
-
 .inferior a:hover {
     color: #3282b8;
 }

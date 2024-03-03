@@ -22,7 +22,9 @@
                 header('Location: menu.php');
             } else {
                 // Credenciales inválidas, mostrar mensaje de error
-                echo "Nombre de usuario o contraseña incorrectos.";
+                ?>
+                    <h5 class="inferior" >Nombre de usuario o contraseña incorrectos</h5>
+                <?php
             }
 
         }
